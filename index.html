@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <form action="/action_page.php" method="post">
+            <h2 class="page-header">SignUp Page</h2> 
+            <div class="imgContainer">
+                <img class= "avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVr0pvUxUUHNLh_dQbqvs6Za1M75T15TjPDQ&usqp=CAU" alt="login-img">
+            </div><br>
+
+            <div class="container">
+                <label id="label" for="uname"><b>User Name</b></label><br>
+                <input type="text" id="uname" name="uname" placeholder=" User Name" required><br>
+
+                <label id="label" for="email"><b>Email</b></label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+
+                <label id="label" for="psw"><b>Password</b></label><br>
+                <input type="password" id="psw" name="psw" placeholder="Enter Password" required><br>
+
+                <label id="label" for="psw"><b>Confirm Password</b></label><br>
+                <input type="password" id="ConfPsw" name="psw" placeholder="Confirm Password" required><br>
+
+                <button id ="signbtn" type="submit">SignUp</button>
+            </div>
+            <!-- <div class="error">
+                <p class="errormsg"></p>
+            </div> -->
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
